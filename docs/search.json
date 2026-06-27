@@ -18,5 +18,26 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>はじめに</span>"
     ]
+  },
+  {
+    "objectID": "part01.html",
+    "href": "part01.html",
+    "title": "第Ⅰ部　実証分析の基礎",
+    "section": "",
+    "text": "第1部では、実証分析を行うための基礎知識として、既存研究を再現し、手元で同じ分析を 行うことができるように、文献レビューの方法、ExcelやRを用いたデータ分析の基礎を学びます。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "第Ⅰ部　実証分析の基礎"
+    ]
+  },
+  {
+    "objectID": "chapter01.html",
+    "href": "chapter01.html",
+    "title": "2  第1章 実証分析の必要性",
+    "section": "",
+    "text": "第Ⅰ部　実証分析の基礎 第1章　実証分析の必要性 第2章　リプリケーションと文献レビューによる仮説構築サイクル 第3章　Excelでのデータ分析 第4章　Rでのデータ分析（基礎） 第5章　Rでのデータ分析（応用）\n第Ⅱ部　リプリケーションと先行研究 第6章　記述統計を用いた利益分布アプローチ（再現１） 第7章　利益分布アプローチを用いた先行研究 第8章　株価と利益情報を用いたイベント・スタディ（再現２） 第9章　イベント・スタディに関する先行研究 第10章　キャッシュ・フロー計算書を用いた重回帰分析（再現３） 第11章　ファンダメンタル分析に関する先行研究 第12章　IFRS適用の決定要因分析（再現４） 第13章　IFRS適用の決定要因分析に関する先行研究\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "第Ⅰ部　実証分析の基礎",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>第1章 実証分析の必要性</span>"
+    ]
   }
 ]
