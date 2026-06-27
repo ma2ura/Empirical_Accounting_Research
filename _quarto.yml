@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: docs
+
+lightbox: auto
+
+book:
+  title: "会計学の実証研究入門"
+  author: "Soichi Matsuura"
+  search: true
+  reader-mode: true
+  cover-image: img/EmpiricalAccountingResearch.jpg
+  favicon: img/favicon.ico
+  site-url: https://so-ichi.com
+  repo-url: https://github.com/ma2ura/Empirical_Accounting_Research/
+  repo-branch: main
+
+  page-footer:
+    border: true
+    background: "#a10000"
+    left: "Copyright 2026, Soichi Matsuura"
+    right:
+      - icon: house
+        href: https://so-ichi.com/r.html
+      - icon: github
+        href: https://github.com/ma2ura
+      - icon: twitter
+        href: https://twitter.com/matsuura_rits
+        aria-label: Twitter
+
+  chapters:
+    - index.qmd
+    - part: part01.qmd
+      chapters:
+        - chapter01.qmd
+
+website:
+  back-to-top-navigation: true
+
+format:
+  live-html:   # ← ここが重要（ネスト形式にする）
+    theme:
+      - cosmo
+      - styles.scss
+
+    toc: true
+    toc-location: left
+    toc-title: "ここの目次"
+    toc-depth: 2
+    toc-expand: true
+
+    code-tools: true
+    code-link: true
+    code-line-numbers: true
+    code-block-bg: true
+    code-block-border-left: "#002D72"
+
+    html-math-method: katex
+    author-meta: "Soichi Matsuura"
+
+    code-copy: hover
+    code-overflow: scroll
+    link-external-icon: true
+    df-print: paged
+
+    twitter-card: true
+    page-navigation: true
+    back-to-top-navigation: true
+
+knitr:
+  opts_chunk:
+    dev: ragg_png
+    dpi: 450
+    fig-align: center
+    warning: false
+    message: false
